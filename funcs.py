@@ -1,12 +1,12 @@
 def add_numbers():
-    number_1 = input("Введите первое число: ")
-    number_2 = input("Введите второе число: ")
-    result = number_1 + number_2
-    print("Результат сложения:", result)
+    a = float(input("Введите первое число: "))
+    b = float(input("Введите второе число: "))
+    sums = a + b
+    print("Результат сложения:", sums)
 
 
 def subtract_numbers():
-    number_1 = input("Введите первое число: ")
-    number_2 = input("Введите второе число: ")
-    result = number_1 - number_2
-    print("Результат сложения:", result)
+    a = float(input("Введите первое число: "))
+    b = float(input("Введите второе число: "))
+    sumv = a - b
+    print("Результат вычитания:", sumv)
